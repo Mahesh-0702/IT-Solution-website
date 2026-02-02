@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Website Using Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="logo" width="80" height="80">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#destination">Destination</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="isiri.jpg" class="d-block w-100" alt="isiri image">
+        </div>
+        <div class="carousel-item">
+            <img src="iisiri.jpg" class="d-block w-100" alt="3D balls image">
+        </div>
+        <div class="carousel-item">
+            <img src="iiisiri.jpg" class="d-block w-100" alt="eye image">
+        </div>
+        <div class="carousel-item">
+            <img src="Vsiri.jpg" class="d-block w-100" alt="tiger image">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+
+    <h1 class="text-center p-5 mb-5 mt-5">Global Association and IT Tech!!!</h1>
+
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Delectus officiis consequuntur ut at nesciunt illo id doloribus.
+        </p>
+        <button class="btn btn-primary btn-lg">Solution for IT</button>
+    </div>
+
+    <h2 id="solutions" class="fs-1 p-5 mb-5 text-center">Popular Solutions</h2>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="card" style="width:18rem;">
+             <img src="cloud computing.jpg" class="card-img-top" alt="Cloud Computing">
+                <div class="card-body">
+        <h5 class="card-title">Cloud computing</h5>
+             <p class="card-text">Some quick example text.</p>
+                   <a href="#" class="btn btn-primary">Read more...</a>
+        </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width:18rem;">
+                <img src="managed it.jpg" class="card-img-top" alt="Managed IT Services">
+         <div class="card-body">
+                    <h5 class="card-title">Managed IT</h5>
+       <p class="card-text">Some quick example text.</p>
+             <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width:18rem;">
+                <img src="cc.jpg" class="card-img-top" alt="Cyber Security">
+           <div class="card-body">
+                    <h5 class="card-title">Cyber Security</h5>
+          <p class="card-text">Some quick example text.</p>
+                    <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width:18rem;">
+                <img src="data analytics.jpg" class="card-img-top" alt="Data Analytics">
+          <div class="card-body">
+             <h5 class="card-title">Data Analytics</h5>
+          <p class="card-text">Some quick example text.</p>
+         <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+    </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- About -->
+<h2 id="About" class="fs-1 p-5 mb-5 text-center">About</h2>
+
+<div class="row">
+    <div class="col-6">
+        <div class="bg-dark text-white p-5 mt-5 mb-5">
+            <h2>Rates</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="bg-dark text-white p-5 mt-5 mb-5">
+            <h2>Popular Sites</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+ </div>
+</div>
+
+<!-- Contact -->
+<h2 id="Contact" class="fs-1 p-5 mb-5 text-center">Contact us</h2>
+
+<div class="w-100 bg-dark-subtle p-5 mb-5">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwioga2BsLqSAxW3p0sFHUK9DGAYACICCAEQARoCc2Y&co=1&ase=2&gclid=CjwKCAiAs4HMBhBJEiwACrfNZUMSFda6eMNVXH2Nyz_3DJinjItSlapkyY_PL53UKC-FupEjdLBtRhoCvC0QAvD_BwE&cid=CAAS0gHkaMQR4NRNWOSHxUiLInnt9_roT995Jwv2EPggnKBnpXcvFXxZUUOf6knkxOwT02vmAAe5E4ac-n45CP29nas237FIovYyLYAUvJvwmrXnV1HVcwG0O5rNRdH0QvE_FQ52o2wI0DyzSgPoFd5QVI8CuBjH8hOttUwJhXB-4UK-L9CtqYbMXbdgP22JZVMlx_UEn1VGFiHmnfwjj2hAx0_yS-grbeSPCYpKqAmqKG5zOYuODh-Yp5twKI4EZim7GnlXU-lRNr5uWwGYe6pPStEIW-Y&cce=2&category=acrcp_v1_32&sig=AOD64_1wODG5FXfQKAIcz6YkMYSofXv_WQ&q&nis=4&adurl=https://www.trendmicro.com/en_gb/business/products/one-platform.html?utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dent_nonbrand_general_lg_amea_in_wg_ao_search%26gad_source%3D1%26gad_campaignid%3D22679768774%26gbraid%3D0AAAAAoI92wetDW8u6ym9x0LHXpegO2zKs%26gclid%3DCjwKCAiAs4HMBhBJEiwACrfNZUMSFda6eMNVXH2Nyz_3DJinjItSlapkyY_PL53UKC-FupEjdLBtRhoCvC0QAvD_BwE&ved=2ahUKEwjwkaSBsLqSAxW_8DgGHTfCGloQ0Qx6BAgdEAE" class="btn btn-primary btn-lg text-white text-decoration-none">
+        Contact us for more information
+    </a>
+</div>
+
+
+<h2 id="Contact" class="fs-1 p-5 mb-5 text-center">Solution for IT problems</h2>
+<img src="solution for it.jpg" class="w-100" alt="solutions">
+
+<footer class="bg-dark mt-5 p-5 text-white text-center">
+    <p>&copy; Find Solutions Today !!</p>
+    <p>
+        <a href="mailto:mahisiri1807@gmail.com" class="text-white">Email Us</a>
+    </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
